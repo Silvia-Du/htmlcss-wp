@@ -109,6 +109,11 @@ ul li a{
   color: gray;
 }
 
+ul li a:hover{
+  color: #c04e58;
+  font-weight: bold;
+}
+
 /* MAIN */
 
 
