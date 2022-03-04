@@ -28,6 +28,12 @@ body{
 .overlay{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.jumbotron .overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   padding-top: 25%;
   padding-left: 90px;
@@ -39,6 +45,24 @@ h1{
   margin-bottom: 5px;
 }
 
+h2{
+  margin-bottom: 10px;
+}
+
+.col .box-img{
+  width: 100%;
+  height: 267px;
+  background-color: #8801fe;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.col .text{
+  padding: 15px 5px;
+  text-align: justify;
+}
 
 
 /* HEADER */
@@ -50,7 +74,7 @@ header .top{
 
 header .jumbotron{
   height: 680px;
-  max-width: 1513px;
+  min-width: 540px;
   border-radius: 18px;
   background-image: url(./img/banner.jpg);
   background-size: cover;
@@ -114,7 +138,6 @@ main{
 
 main .col{
   height: 800px;
-  background-color: #abcfe7;
   float: left;
 }
 
@@ -130,6 +153,20 @@ aside{
 .main-top p{
   font-size: 1.3rem;
 
+}
+
+/* main-img */
+
+.main-bottom .left .box-img{
+  background-image: url(./img/img-1.jpg);
+}
+
+.main-bottom .center .box-img{
+  background-image: url(./img/banner-2.jpg);
+}
+
+.main-bottom .right .box-img{
+  background-image: url(./img/img-3.jpg);
 }
 
   
