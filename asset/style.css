@@ -17,6 +17,10 @@
   clear: both;
 }
 
+.color-gray{
+  color: gray;
+}
+
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -29,6 +33,12 @@ body{
   padding-left: 90px;
 }
 
+h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
 
 
 /* HEADER */
@@ -39,7 +49,6 @@ header .top{
 }
 
 header .jumbotron{
-  background-color: #e1d67a;
   height: 680px;
   max-width: 1513px;
   border-radius: 18px;
@@ -58,6 +67,18 @@ header .jumbotron{
   border-right: 1px solid gray;
 }
 
+.overlay #title{
+  font-size: 2.3rem;
+  width: 54%;
+  margin-bottom: 10px;
+}
+
+.jumbotron p{
+  width: 50%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+  
 /* MENU */
 
 ul{
@@ -75,18 +96,14 @@ ul li a{
   color: gray;
 }
 
-
 /* MAIN */
 
 
 main{
-  background-color: #0086fe;
   padding-bottom: 30px;
 }
 
 .main-top{
-  background-color: #abcfe7;
-  height: 120px;
   margin-bottom: 35px;
 }
 
@@ -110,17 +127,10 @@ aside{
   margin: auto 1%
 }
 
-.overlay #title{
-  font-size: 2.3rem;
-  width: 54%;
-  margin-bottom: 10px;
-}
+.main-top p{
+  font-size: 1.3rem;
 
-.jumbotron p{
-  width: 50%;
-  text-align: justify;
 }
-  
 
   
 
