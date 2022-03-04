@@ -25,19 +25,6 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-.overlay{
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-
-.jumbotron .overlay{
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
-  padding-top: 25%;
-  padding-left: 90px;
-}
 
 h1{
   font-size: 3rem;
@@ -49,19 +36,14 @@ h2{
   margin-bottom: 10px;
 }
 
-.col .box-img{
-  width: 100%;
-  height: 267px;
-  background-color: #8801fe;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
-
 .col .text{
   padding: 15px 5px;
   text-align: justify;
+}
+
+.overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -72,17 +54,6 @@ header .top{
   margin-bottom: 36px;
 }
 
-header .jumbotron{
-  height: 680px;
-  min-width: 540px;
-  border-radius: 18px;
-  background-image: url(./img/banner.jpg);
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-
-}
-
 #logo{
   margin: 0.5% auto;
   width: 242px;
@@ -91,10 +62,14 @@ header .jumbotron{
   border-right: 1px solid gray;
 }
 
-.overlay #title{
-  font-size: 2.3rem;
-  width: 54%;
-  margin-bottom: 10px;
+header .jumbotron{
+  height: 680px;
+  min-width: 540px;
+  border-radius: 18px;
+  background-image: url(./img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 .jumbotron p{
@@ -102,7 +77,21 @@ header .jumbotron{
   text-align: justify;
   font-size: 1.2rem;
 }
-  
+
+.jumbotron .overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding-top: 25%;
+  padding-left: 90px;
+}
+
+.overlay #title{
+  font-size: 2.3rem;
+  width: 54%;
+  margin-bottom: 10px;
+}
+
 /* MENU */
 
 ul{
@@ -131,6 +120,10 @@ main{
   margin-bottom: 35px;
 }
 
+.main-top p{
+  font-size: 1.3rem;
+}
+
 .main-bottom{
   padding: 30px auto;
   
@@ -150,12 +143,16 @@ aside{
   margin: auto 1%
 }
 
-.main-top p{
-  font-size: 1.3rem;
-
-}
-
 /* main-img */
+
+.col .box-img{
+  width: 100%;
+  height: 267px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
 
 .main-bottom .left .box-img{
   background-image: url(./img/img-1.jpg);
@@ -170,11 +167,23 @@ aside{
 }
 
   
-
-
 /* FOOTER */
 
+
 footer{
-  background-color: #8801fe;
   height: 100px;
+  text-align: center;
+}
+
+
+#footer-text{
+  font-size: 1.5rem;
+  line-height: 100px;
+}
+
+#footer-text::after{
+  content: '\02764';
+  height: 20px;
+  margin-left: 5px;
+  color: red;
 }
