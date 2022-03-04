@@ -17,14 +17,16 @@
   clear: both;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 /* HEADER */
 
 
 header .top{
-  background-color: #e579e6;
-  
-  margin-bottom: 25px;
+  margin-bottom: 36px;
 }
 
 header .jumbotron{
@@ -38,6 +40,23 @@ header .jumbotron{
   max-width: 50%;
   padding-right: 35px;
   border-right: 1px solid gray;
+}
+
+/* MENU */
+
+ul{
+  list-style: none;
+  padding-top: 40px;
+}
+
+ul li{
+  display: inline-block;
+  margin-right: 25px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: gray;
 }
 
 
