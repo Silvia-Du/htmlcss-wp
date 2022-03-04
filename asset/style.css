@@ -8,7 +8,7 @@
 
 .container{
   width: 80%;
-  margin: 30px auto;
+  margin: 25px auto;
 }
 
 .clearfix::after{
@@ -23,13 +23,21 @@
 
 header .top{
   background-color: #e579e6;
-  height: 150px;
-  margin-bottom: 30px;
+  
+  margin-bottom: 25px;
 }
 
 header .jumbotron{
   background-color: #e1d67a;
   height: 600px;
+}
+
+#logo{
+  margin: 0.5% auto;
+  width: 242px;
+  max-width: 50%;
+  padding-right: 35px;
+  border-right: 1px solid gray;
 }
 
 
