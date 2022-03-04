@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILITIES */
+
+.container{
+  width: 80%;
+  margin: 30px auto;
+}
+
+.clearfix::after{
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+
+/* HEADER */
+
+
+header .top{
+  background-color: #e579e6;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+header .jumbotron{
+  background-color: #e1d67a;
+  height: 600px;
+}
+
+
+/* MAIN */
+
+
+main{
+  background-color: #0086fe;
+  padding-bottom: 30px;
+}
+
+.main-top{
+  background-color: #abcfe7;
+  height: 120px;
+  margin-bottom: 35px;
+}
+
+.main-bottom{
+  padding: 30px auto;
+  
+}
+
+main .col{
+  height: 800px;
+  background-color: #abcfe7;
+  float: left;
+}
+
+aside{
+  width: 19%;
+}
+
+ section{
+  width: 60%;
+  margin: auto 1%
+}
+
+
+/* FOOTER */
+
+footer{
+  background-color: #8801fe;
+  height: 100px;
+}
