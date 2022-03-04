@@ -24,7 +24,11 @@ body{
 .overlay{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding-top: 25%;
+  padding-left: 90px;
 }
+
 
 
 /* HEADER */
@@ -36,12 +40,14 @@ header .top{
 
 header .jumbotron{
   background-color: #e1d67a;
-  height: 650px;
+  height: 680px;
+  max-width: 1513px;
   border-radius: 18px;
   background-image: url(./img/banner.jpg);
   background-size: cover;
   background-position: center;
   overflow: hidden;
+
 }
 
 #logo{
@@ -103,6 +109,20 @@ aside{
   width: 60%;
   margin: auto 1%
 }
+
+.overlay #title{
+  font-size: 2.3rem;
+  width: 54%;
+  margin-bottom: 10px;
+}
+
+.jumbotron p{
+  width: 50%;
+  text-align: justify;
+}
+  
+
+  
 
 
 /* FOOTER */
