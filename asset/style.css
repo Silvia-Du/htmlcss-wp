@@ -21,6 +21,11 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 
 /* HEADER */
 
@@ -31,7 +36,12 @@ header .top{
 
 header .jumbotron{
   background-color: #e1d67a;
-  height: 600px;
+  height: 650px;
+  border-radius: 18px;
+  background-image: url(./img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
 #logo{
